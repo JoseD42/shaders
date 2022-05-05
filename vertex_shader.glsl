@@ -2,6 +2,8 @@
 layout (location = 0) in vec4 position;
 in vec4 color;
 
+uniform mat4 transformations;
+
 //Los out, van hacia el fragment shader
 out vec4 fragmentColor;
 //hay que establecer posicion en la propiedad
